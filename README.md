@@ -1,6 +1,7 @@
 # gulp-demo
 a simple gulp demo
-
+***
+clone the project and run `npm install`,then:  
 1.run "gulp clean" to clean dist  
 2.run "gulp lint" to lint your js  
 3.run "gulp scripts" to compress your js  
