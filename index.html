@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />-->
+		<title>仿微信个人页面</title>
+		<script src="public/js/flexible.js"></script>
+		<link rel="stylesheet" type="text/css" href="public/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="public/css/index.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<section class="clearfix">
+				<div class="avatar">
+					<img src="public/img/331176140995434137.jpg"/>
+				</div>
+				<div class="info">
+					<h2>灵枫</h2>
+					<p>微信号：123456789</p>
+				</div>
+			</section>
+			<section>
+				<ul>
+					<li class="photos" onclick="goto('相册')"><a href="##">相册</a></li>
+					<li class="collection"  onclick="goto('收藏')"><a href="##">收藏</a></li>
+				</ul>
+			</section>
+			<section>
+				<ul>
+					<li class="wallet"  onclick="goto('钱包')"><a href="##">钱包</a></li>
+					<li class="card"  onclick="goto('卡包')"><a href="##">卡包</a></li>
+				</ul>
+			</section>
+			<section>
+				<ul>
+					<li class="emotion"  onclick="goto('表情')"><a href="##">表情</a></li>
+				</ul>
+			</section>
+			<section>
+				<ul>
+					<li class="setting"  onclick="goto('设置')"><a href="##">设置</a></li>
+				</ul>
+			</section>
+			<section>
+				<div id="showclick"></div>
+			</section>
+		</div>
+		<script src="public/js/fastclick.js" type="text/javascript"></script>
+		<script src="public/js/index.js" type="text/javascript"></script>
+	</body>
+</html>

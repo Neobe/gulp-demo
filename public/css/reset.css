@@ -1,0 +1,32 @@
+/* css 重置 */
+body,p,input,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	vertical-align: middle;
+	font-weight:normal;
+}
+img{
+	display: block;
+	margin: 0;
+	padding: 0 ;
+	border: 0 ;
+}
+body{
+	color: #000;
+	background:#f4f4f4;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	text-align:left;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
