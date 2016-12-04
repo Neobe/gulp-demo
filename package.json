@@ -1,0 +1,37 @@
+{
+  "name": "gulp-demo",
+  "version": "1.0.0",
+  "description": "a simple gulp demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neobe/gulp-demo.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Neobe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neobe/gulp-demo/issues"
+  },
+  "homepage": "https://github.com/Neobe/gulp-demo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-spriters": "^1.0.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "jshint": "^2.9.4"
+  }
+}
